@@ -8,6 +8,8 @@ const CompoentA = () => {
       console.log("parent ",name)
       setData(name)
     }
+
+    console.log("in component a")
     
 
     return (

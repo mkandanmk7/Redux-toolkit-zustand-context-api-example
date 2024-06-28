@@ -4,7 +4,7 @@ let SampleContext = createContext();
 let CartContext = createContext();
 
 const SampleContextProvider = ({ children }) => {
-  const [globalState, setGlobalState] = useState({ name: "muthu" })
+  const [globalState, setGlobalState] = useState({ name: "muthu",age:24, })
   const [carts,setCarts]=useState([]);
   const [cartTotal,setCartTotal]=useState(0);
   const login = (data) => {
